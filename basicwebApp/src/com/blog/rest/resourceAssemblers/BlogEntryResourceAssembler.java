@@ -16,7 +16,7 @@ public class BlogEntryResourceAssembler extends ResourceAssemblerSupport<BlogEnt
 	
 
 	public BlogEntryResourceAssembler() {
-		super(BlogEntryControllerTest.class, BlogEntryResource.class);		
+		super(BlogEntryController.class, BlogEntryResource.class);		
 	}
 
 	@Override
